@@ -42,7 +42,7 @@ header nav{
 }
 
 .nav-section:hover{   
-    border: 0.1px solid #c6c6c6;
+    /* border: 0.1px solid #c6c6c6; */
     border-radius: 5px;
     box-shadow: 0 1px 2px #b5b5b9;
 
@@ -51,7 +51,7 @@ header nav{
 header nav ul{
     display: flex;
     flex-direction: row;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
     padding: 0px;
 }
 
